@@ -1,0 +1,24 @@
+sudo apt install vim
+sudo apt install python3-pip
+sudo pip3 install --upgrade pip
+sudo apt install python3-dev
+sudo apt update
+sudo apt upgrade
+sudo apt-get install build-essential libssl-dev  libffi-dev python-dev
+sudo apt install cups-pdf
+sudo apt install pyqt5
+sudo apt install qt5-*
+sudo apt install qt5-default
+sudo apt install qt-sdk
+sudo apt install fcitx-*
+sudo apt install git
+git init
+git config --global user.name "Earthpea1983"
+git config --global user.email "amwuuuuje@sina.com"
+
+sudo apt install uget
+sudo apt install aria2
+sudo apt install python3-tk
+sudo pip3 install numpy pandas py2exe ipython arrow fuzzywuzzy python-levenshtein xpinyin nltk jieba you-get pillow scikit-image scikit-video requests urllib3 flask envelopes bs4 lxml scrapy textract asyncio pyqt5 flake8 rope blaze neupy scipy sympy matplotlib scikit-learn tensorflow spyder selenium progressbar2 opencv_python itchat django seaborn bokeh plotly keras gensim statsmodels 
+
+

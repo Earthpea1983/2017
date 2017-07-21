@@ -1,9 +1,12 @@
 sudo apt install vim
+curl -sLf https://spacevim.org/install.sh | bash
 sudo apt install python3-pip
 sudo pip3 install --upgrade pip
 sudo apt install python3-dev
 sudo apt update
 sudo apt upgrade
+sudo apt install default-jdk
+sudo apt install default-jre
 sudo apt-get install build-essential libssl-dev  libffi-dev python-dev
 sudo apt install cups-pdf
 sudo apt install pyqt5
@@ -12,10 +15,6 @@ sudo apt install qt5-default
 sudo apt install qt-sdk
 sudo apt install fcitx-*
 sudo apt install git
-git init
-git config --global user.name "Earthpea1983"
-git config --global user.email "amwuuuuje@sina.com"
-
 sudo apt install uget
 sudo apt install aria2
 sudo apt install python3-tk

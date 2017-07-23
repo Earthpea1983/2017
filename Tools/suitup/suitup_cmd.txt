@@ -1,5 +1,4 @@
 sudo apt install vim
-curl -sLf https://spacevim.org/install.sh | bash
 sudo apt install python3-pip
 sudo pip3 install --upgrade pip
 sudo apt install python3-dev

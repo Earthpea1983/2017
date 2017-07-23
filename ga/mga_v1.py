@@ -5,7 +5,6 @@ Genetic algarithum for minimum problem, with mutipul various!
 import itertools
 import math
 import random
-
 import Levenshtein as le
 import pandas as pd
 import progressbar
@@ -15,15 +14,20 @@ from matplotlib import pyplot as plt
 # target function input
 class fitness_function:
     def __init__(self):
-        self.lower_edge = [-1000,-1000,-1000]
-        self.upper_edge = [1000,1000,1000]
+        self.lower_edge = [-1000, -1000, -1000]
+        self.upper_edge = [1000, 1000, 1000]
         self.various_num = len(self.lower_edge)
 
-    def func(self, x): # for minimum +, for maximum -, x shall be a list
+    def func(self, x):  # for minimum +, for maximum -, x shall be a list
+
         return x[0]**2+x[1]**2-4*x[2]**2+x[2]*math.sin(x[2])
 
 # ga main function
+
+
 class ga(fitness_function):
+
+
     def __init__(self):
         super().__init__()
         self.dna_length = 22  # time of 2
